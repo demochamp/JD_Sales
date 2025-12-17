@@ -1,0 +1,1535 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>JD SALES — Contact</title>
+    <meta name="description" content="Contact JD Sales — Industrial water treatment chemicals" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.rtl.min.css"
+        integrity="sha384-CfCrinSRH2IR6a4e6fy2q6ioOX7O6Mtm1L9vRvFZ1trBncWmMePhzvafv7oIcWiW" crossorigin="anonymous">
+
+    <!-- add in <head> -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- optional: configure Tailwind colors to match your site -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#1e90ff',
+                        accent: '#4fc1ff',
+                        'primary-foreground': '#ffffff',
+                        'background': '#fbfdff',
+                        'muted-foreground': '#667681'
+                    }
+                }
+            }
+        }
+    </script>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
+    <style>
+        :root {
+            --bg: #f7fafc;
+            --card: #ffffff;
+            --muted: #6b7280;
+            --primary: #1976ff;
+            --primary-600: #1e88ff;
+            --accent: #9be7ff;
+            --nav-h: 76px;
+            --radius-lg: 18px;
+            --glass-border: rgba(15, 23, 42, 0.06);
+            --shadow-lg: 0 18px 40px rgba(9, 30, 63, 0.08);
+            font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+        }
+
+        html,
+        body {
+            height: 60%;
+        }
+
+        body {
+            margin: 0;
+            color: #0b2330;
+            background: linear-gradient(180deg, #fbfdff 0%, #ecf3fa 100%);
+            color: #0b2330;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            line-height: 1.45;
+        }
+
+        /* Navigation section*/
+        element.style {
+            transform: none;
+        }
+
+        .backdrop-blur-lg {
+            --tw-backdrop-blur: blur(16px);
+            -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+            backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+        }
+
+        .bg-card\/95 {
+            background-color: hsl(0deg 0% 99.46% / 95%);
+        }
+
+        .border-border\/50 {
+            border-color: hsl(214deg 29.77% 89.9% / 50%);
+        }
+
+        .border-b {
+            border-bottom-width: 1px;
+        }
+
+        .z-50 {
+            z-index: 50;
+        }
+
+        .top-0 {
+            top: 0;
+        }
+
+        .right-0 {
+            right: 0;
+        }
+
+        .left-0 {
+            left: 0;
+        }
+
+        .fixed {
+            position: fixed;
+        }
+
+        /* nav link */
+        .nav link .font-medium {
+            font-weight: 500;
+        }
+
+        .nav-link {
+            display: flex;
+            gap: 22px;
+            align-items: center;
+            position: relative;
+            text-decoration: none;
+            color: #2563eb;
+            color: hsl(222deg 47.21% 11.34% / 80%);
+            /* blue */
+            transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+            transition-timing-function: cubic-bezier(.4, 0, .2, 1);
+            transition-duration: .3s;
+            animation-duration: .3s;
+        }
+
+        .nav-link:hover {
+            color: #3d83f5;
+        }
+
+        .nav-link::after {
+            content: "";
+            position: absolute;
+            left: 0;
+            bottom: -4px;
+            width: 0;
+            height: 2px;
+            background-color: #2563eb;
+            transition: width 0.3s ease;
+        }
+
+        .nav-link:hover::after {
+            width: 100%;
+        }
+
+        .text-primary {
+            color: #3c83f5;
+        }
+
+        a {
+            color: inherit;
+            text-decoration: inherit;
+        }
+
+        * {
+            border-color: hsl(214deg 34.36% 91.12%);
+        }
+
+        /* mobile screen navbar */
+        /* Mobile menu link hover & touch effect */
+        .mobile-nav-list a {
+            position: relative;
+            padding: 10px 12px;
+            border-radius: 10px;
+            transition:
+                background-color 0.25s ease,
+                color 0.25s ease,
+                transform 0.15s ease;
+        }
+
+        /* Desktop hover */
+        .mobile-nav-list a:hover {
+            background: rgba(30, 144, 255, 0.08);
+            /* light primary */
+            color: #1e90ff;
+        }
+
+        /* Mobile touch feedback */
+        .mobile-nav-list a:active {
+            background: rgba(30, 144, 255, 0.15);
+            transform: scale(0.98);
+        }
+
+        /* Remove ugly blue tap highlight on mobile */
+        .mobile-nav-list a {
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        .mobile-nav-list a::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 50%;
+            width: 3px;
+            height: 0;
+            background: #1e90ff;
+            border-radius: 2px;
+            transform: translateY(-50%);
+            transition: height 0.25s ease;
+        }
+
+        .mobile-nav-list a:hover::before,
+        .mobile-nav-list a:active::before {
+            height: 60%;
+        }
+
+        .py-4 {
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+        }
+
+        .border-border\/50 {
+            border-color: hsl(214deg 27.33% 90.03% / 50%);
+        }
+
+        .border-t {
+            border-top-width: 1px;
+        }
+
+        .brand {
+            display: flex;
+            gap: 12px;
+            align-items: center;
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .brand h1 {
+            font-size: 18px;
+            margin: 0;
+            font-weight: 700;
+        }
+
+        .hamburger {
+            display: none;
+            border: 0;
+            background: transparent;
+            padding: 8px;
+            border-radius: 8px;
+            margin-right: 2rem;
+        }
+
+        .hamburger:focus {
+            outline: 2px solid rgba(25, 118, 255, 0.18)
+        }
+
+        /* HERO */
+        .hero {
+            padding-top: calc(var(--nav-h) + 32px);
+            padding-bottom: 40px;
+            text-align: center;
+            margin-bottom: 8rem;
+            /* height: 50vh; */
+        }
+
+        .hero .inner p {
+            width: min(980px, 92%);
+            margin: 0 auto;
+            font-size: 20px;
+            color: #65758B;
+        }
+
+        .section-title {
+            font-size: 45px;
+            margin: 8px 0;
+            font-weight: 780;
+            background-color: linear-gradient(180deg, #45f4fd, #f9fbfd);
+            margin-top: 5rem;
+        }
+
+        .section-title .accent {
+            color: var(--primary);
+        }
+
+        .text-lg p {
+            font-size: 50px;
+        }
+
+        .lead {
+            color: var(--muted);
+            max-width: 780px;
+            margin: 0 auto 10px;
+        }
+
+        /* LAYOUT */
+
+        .main {
+            background-color: white;
+        }
+
+        .wrap {
+            width: min(1150px, 94%);
+            margin: 28px auto 80px;
+            display: grid;
+            grid-template-columns: 1fr 480px;
+            gap: 36px;
+            align-items: start;
+        }
+
+        @media (max-width: 1000px) {
+            .wrap {
+                grid-template-columns: 1fr;
+                padding: 0 14px;
+            }
+        }
+
+        /* LEFT COLUMN */
+        .contact-col {
+            display: flex;
+            flex-direction: column;
+            gap: 18px;
+        }
+
+        .col-title {
+            font-size: 28px;
+            margin: 0 0 8px;
+            font-weight: 700;
+        }
+
+        /* CARDS */
+        .card {
+            background: var(--card, #ffffff);
+            border-radius: 14px;
+            padding: 18px;
+            border: 1px solid var(--glass-border, #e6e6e6);
+            box-shadow: var(--shadow-lg, 0 4px 14px rgba(0, 0, 0, 0.06));
+        }
+
+        .contact-card {
+            display: flex;
+            gap: 14px;
+            align-items: flex-start;
+        }
+
+        .icon-round {
+            width: 56px;
+            height: 56px;
+            border-radius: 12px;
+            display: grid;
+            place-items: center;
+            background: linear-gradient(180deg, rgba(30, 120, 255, 0.08), rgba(30, 120, 255, 0.03));
+            box-shadow: 0 8px 18px rgba(30, 120, 255, 0.08);
+            font-size: 24px;
+            background-color: #1386ff;
+        }
+
+        .contact-card h3 {
+            margin: 0;
+            font-size: 16px;
+            font-weight: 600;
+        }
+
+        .muted p {
+            color: var(--muted, #667285);
+            font-size: 14px;
+            margin-top: 6px;
+        }
+
+        /* MAP CARD */
+        .map-promo {
+            text-align: center;
+            padding: 28px;
+            background: linear-gradient(180deg, #eaf7ff 0%, #f9fdff 100%);
+            border: 1px solid rgba(30, 120, 255, 0.06);
+        }
+
+        .map-promo .big-icon {
+            font-size: 30px;
+            color: var(--primary, #1e78ff);
+            margin-bottom: 8px;
+        }
+
+        /* FORM */
+        .form-card {
+            padding: 30px;
+        }
+
+        .form-title {
+            margin-top: 0;
+            font-size: 28px;
+            font-weight: 700;
+            margin-bottom: 2rem;
+        }
+
+        .form-subject {
+            margin-bottom: 10px;
+            font-size: 14px;
+            margin-bottom: 1rem;
+        }
+
+        .form-grid {
+            display: grid;
+            gap: 12px;
+            grid-template-columns: 1fr 1fr;
+            font-size: medium;
+        }
+
+        .form-grid .full {
+            grid-column: 1 / -1;
+        }
+
+        element.style {
+            opacity: 1;
+            transform: none;
+        }
+
+        button[type=submit]:hover {
+            transition: all 0.3s ease;
+            box-shadow: rgba(60, 131, 246, 0.392) 0px 5.82896px 19.4869px 0px;
+            background-color: rgba(60, 131, 246, 0.91);
+        }
+
+        .font-semibold {
+            font-weight: 600;
+        }
+
+        .py-4 {
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+        }
+
+        .rounded-xl {
+            border-radius: .75rem;
+        }
+
+        .gap-2 {
+            gap: .5rem;
+        }
+
+        .justify-center {
+            justify-content: center;
+        }
+
+        .items-center {
+            align-items: center;
+        }
+
+        .w-full {
+            width: 100%;
+        }
+
+        .flex {
+            display: flex;
+        }
+
+        .btn-primary {
+            box-shadow: 0 4px 14px hsl(217deg 94.74% 60.88% / 30%);
+        }
+
+        .btn-primary {
+            background-color: hsl(217deg 87.6% 59.35%);
+            color: hsl(0deg 13.91% 98.17%);
+            transition-property: all;
+            transition-timing-function: cubic-bezier(.4, 0, .2, 1);
+            transition-duration: .3s;
+            animation-duration: .3s;
+        }
+
+        button,
+        [role=button] {
+            cursor: pointer;
+        }
+
+        /* ===== Mobile-first fixes for Contact / Form (paste at end of your stylesheet) ===== */
+
+        /* make sure inputs adapt consistently */
+        .input-field,
+        input,
+        textarea,
+        select {
+            -webkit-appearance: none;
+            appearance: none;
+            box-sizing: border-box;
+            width: 100%;
+            padding: 12px 14px;
+            font-size: 15px;
+            line-height: 1.3;
+            border-radius: 10px;
+            border: 1px solid #e6e9ee;
+            background: #fff;
+            outline: none;
+            transition: box-shadow .18s ease, border-color .15s ease, background .15s ease;
+        }
+
+        /* slightly larger textarea on mobile */
+        textarea.input-field,
+        textarea {
+            min-height: 140px;
+            resize: vertical;
+        }
+
+        /* consistent focus outline for accessibility */
+        .input-field:focus,
+        input:focus,
+        textarea:focus,
+        select:focus {
+            box-shadow: 0 8px 20px rgba(30, 120, 255, 0.12);
+            border-color: rgba(30, 120, 255, 0.45);
+        }
+
+        /* form title and card spacing */
+        .form-card,
+        .glass-card {
+            padding: 26px;
+            border-radius: 16px;
+        }
+
+        /* form title style */
+        .form-title,
+        .form-card h3,
+        .glass-card h2 {
+            margin-top: 0;
+            font-size: 28px;
+            line-height: 1.05;
+            font-weight: 700;
+        }
+
+        /* form grid default: two columns on desktop, stack on mobile via media query below */
+        .form-grid {
+            display: grid;
+            gap: 12px;
+            grid-template-columns: 1fr 1fr;
+            align-items: start;
+        }
+
+        /* full width rows */
+        .form-grid .full {
+            grid-column: 1 / -1;
+        }
+
+        /* primary button */
+        .btn,
+        .btn-primary {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            padding: 12px 18px;
+            border-radius: 12px;
+            width: 100%;
+            border: 0;
+            cursor: pointer;
+            font-weight: 700;
+            font-size: 15px;
+            background: linear-gradient(90deg, var(--primary-600, #1e78ff), #1386ff);
+            color: #fff;
+            box-shadow: 0 8px 24px rgba(30, 120, 255, 0.12);
+        }
+
+        /* make sure the form floats nicely above the page bottom (so floating buttons don't hide it) */
+        main,
+        .wrap {
+            padding-bottom: 80px;
+            /* extra room for floating actions */
+        }
+
+        /* ===== Responsive breakpoints ===== */
+
+        /* Tablet / smaller desktops */
+        @media (max-width: 1000px) {
+            .wrap {
+                grid-template-columns: 1fr;
+                padding-left: 18px;
+                padding-right: 18px;
+                gap: 22px;
+            }
+
+            .form-card,
+            .glass-card {
+                padding: 20px;
+            }
+
+            .form-title,
+            .glass-card h2 {
+                font-size: 20px;
+                text-align: left;
+            }
+        }
+
+        /* Mobile: stack form fields and enlarge targets */
+        @media (max-width: 600px) {
+
+            /* stack everything */
+            .form-grid {
+                grid-template-columns: 1fr !important;
+            }
+
+            /* more vertical space between label + control */
+            label {
+                display: block;
+                margin-bottom: 8px;
+                font-size: 10px;
+                font-weight: 700;
+                color: #081126;
+                font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+                color: #0b2330;
+            }
+
+            .form-card,
+            .glass-card {
+                padding: 20px;
+                border-radius: 14px;
+            }
+
+            .form-title {
+                font-size: 22px;
+                margin-bottom: 10px;
+            }
+
+            .input-field,
+            input,
+            textarea,
+            select {
+                padding: 14px 14px;
+                font-size: 15px;
+                border-radius: 12px;
+            }
+
+            textarea {
+                min-height: 140px;
+            }
+
+            /* ensure button has space from bottom floating actions */
+            .btn {
+                margin-bottom: 12px;
+            }
+
+            /* reduce the map-promo and contact cards vertical size on small screens */
+            .contact-card .icon-round {
+                flex: 0 0 50px;
+                height: 50px;
+            }
+
+            .contact-card {
+                gap: 12px;
+                padding: 16px;
+            }
+
+            /* increase clickable area of floating buttons slightly */
+            .float-actions a {
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                width: 56px;
+                height: 56px;
+                box-shadow: 0 8px 20px rgba(9, 30, 63, 0.12);
+                border-radius: 50%;
+            }
+        }
+
+        /* INPUTS */
+        .input-field {
+            width: 100%;
+            border-radius: 10px;
+            border-width: 1px;
+            border-color: hsl(#e1e7ef);
+            background-color: hsl(#fff);
+            padding: .75rem 1rem;
+            outline: 2px solid transparent;
+            outline-offset: 2px;
+        }
+
+        button,
+        input,
+        select,
+        textarea {
+            font-family: inherit;
+            font-feature-settings: inherit;
+            font-variation-settings: inherit;
+            font-size: 14px;
+            font-weight: inherit;
+            line-height: inherit;
+            letter-spacing: inherit;
+            color: inherit;
+            margin: 0;
+            padding: 0;
+        }
+
+        label {
+            display: block;
+            font-size: 13px;
+            color: #0b1220;
+            margin-bottom: 6px;
+            font-weight: 600;
+        }
+
+        input.input-field:focus,
+        textarea.input-field:focus {
+            border-color: var(--primary, #1e90ff);
+            box-shadow: 0 0 0 3px rgba(30, 144, 255, 0.18);
+        }
+
+        textarea {
+            min-height: 120px;
+            resize: vertical;
+        }
+
+        /* BUTTON */
+        .btn {
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            width: 100%;
+            padding: 12px 18px;
+            border-radius: 10px;
+            border: none;
+            cursor: pointer;
+            font-weight: 700;
+            font-size: 15px;
+            background: linear-gradient(90deg, var(--primary-600, #1e78ff), #1386ff);
+            color: #fff;
+        }
+
+
+        /* FOOTER */
+        .site-footer-new {
+            background: linear-gradient(0deg, #071027 0%, #071027 100%);
+            /* near-black */
+            color: #d1e3f6;
+            padding: 48px 0 28px;
+            font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+        }
+
+        /* container */
+        .footer-container {
+            max-width: 1180px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* grid layout: 1 / 2 / 4 columns */
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 32px;
+            align-items: start;
+        }
+
+        /* columns */
+        .footer-col {
+            min-width: 0;
+        }
+
+        /* Brand column */
+        .footer-brand .brand-link {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            text-decoration: none;
+            color: inherit;
+            margin-bottom: 12px;
+        }
+
+        .brand-badge {
+            width: 40px;
+            height: 40px;
+            border-radius: 10px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(135deg, #2f8fff 0%, #4fc1ff 100%);
+            box-shadow: 0 10px 28px rgba(47, 143, 255, 0.12);
+        }
+
+        .brand-badge svg {
+            color: white;
+            width: 20px;
+            height: 20px;
+        }
+
+        .brand-text {
+            font-size: 18px;
+            font-weight: 800;
+            letter-spacing: 0.2px;
+        }
+
+        .brand-desc {
+            color: rgba(209, 227, 246, 0.9);
+            margin: 0;
+            line-height: 1.6;
+        }
+
+        /* section titles */
+        .foot-title {
+            margin: 0 0 12px 0;
+            font-size: 16px;
+            color: #e9f4ff;
+            font-weight: 700;
+        }
+
+        /* links */
+        .foot-links {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .foot-links li {
+            margin-bottom: 8px;
+        }
+
+        .foot-links a {
+            color: rgba(209, 227, 246, 0.75);
+            text-decoration: none;
+            transition: color .18s ease;
+        }
+
+        .foot-links a:hover {
+            color: var(--accent, #1e90ff);
+        }
+
+        /* contact list */
+        .contact-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .contact-list li {
+            margin-bottom: 12px;
+        }
+
+        .contact-link {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            color: rgba(209, 227, 246, 0.78);
+            text-decoration: none;
+            transition: color .18s ease;
+        }
+
+        .contact-link:hover {
+            color: var(--accent, #1e90ff);
+        }
+
+        /* icons inside links */
+        .icon {
+            stroke: rgba(209, 227, 246, 0.85);
+        }
+
+        .icon-phone,
+        .icon-mail {
+            width: 18px;
+            height: 18px;
+            flex-shrink: 0;
+        }
+
+        /* footer bottom row */
+        .footer-bottom {
+            margin-top: 28px;
+            padding-top: 22px;
+            border-top: 1px solid rgba(255, 255, 255, 0.03);
+            text-align: center;
+            color: rgba(125, 141, 160, 0.7);
+            font-size: 14px;
+        }
+
+        /* responsive breakpoints */
+        @media (min-width: 720px) {
+            .footer-grid {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 28px;
+            }
+        }
+
+        @media (min-width: 980px) {
+            .footer-grid {
+                grid-template-columns: repeat(4, 1fr);
+                gap: 32px;
+            }
+        }
+
+        /* small tweaks */
+        .footer-col ul {
+            margin: 0;
+            padding: 0;
+        }
+
+        .footer-container .brand-desc {
+            max-width: 320px;
+        }
+
+        /* Accessible focus */
+        a:focus {
+            outline: 3px solid rgba(30, 144, 255, 0.18);
+            outline-offset: 2px;
+        }
+
+        /* floating actions */
+        .float-actions {
+            position: fixed;
+            right: 18px;
+            bottom: 18px;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            z-index: 70;
+        }
+
+        .fab {
+            width: 52px;
+            height: 52px;
+            border-radius: 12px;
+            display: grid;
+            place-items: center;
+            color: white;
+            text-decoration: none;
+            box-shadow: 0 10px 30px rgba(9, 30, 63, 0.12)
+        }
+
+        .fab.wh {
+            background: #00a83e;
+            border-radius: 50px;
+            margin: 0.5rem;
+        }
+
+        .fab.call {
+            background: #3C7FE8;
+            border-radius: 50px;
+            margin: 0.5rem;
+        }
+
+        /* --- Mobile panel (drop-in) --- */
+        .mobile-panel {
+            position: fixed;
+            inset: 0;
+            z-index: 1200;
+            display: none;
+            align-items: flex-start;
+            justify-content: center;
+            pointer-events: none;
+        }
+
+        .mobile-panel.open {
+            display: flex;
+            pointer-events: auto;
+        }
+
+        .mobile-panel-backdrop {
+            position: fixed;
+            inset: 0;
+            background: rgba(10, 20, 30, 0.12);
+            backdrop-filter: blur(8px) saturate(120%);
+            -webkit-backdrop-filter: blur(8px) saturate(120%);
+            z-index: 1200;
+            pointer-events: auto;
+            opacity: 0;
+            transition: opacity .28s ease;
+        }
+
+        .mobile-panel.open .mobile-panel-backdrop {
+            opacity: 1;
+        }
+
+        .mobile-panel-card {
+            margin-top: 12px;
+            width: calc(100% - 32px);
+            max-width: 420px;
+            background: linear-gradient(180deg, #ffffff, #fbfdff);
+            border-radius: 12px;
+            box-shadow: 0 22px 60px rgba(9, 30, 63, 0.10);
+            border: 1px solid rgba(11, 34, 48, 0.06);
+            overflow: hidden;
+            z-index: 1210;
+            /* must be higher than backdrop */
+            pointer-events: auto;
+            transform-origin: top center;
+            transform: translateY(-14px) scale(0.98);
+            opacity: 0;
+            transition: transform .32s cubic-bezier(.2, .9, .28, 1), opacity .28s ease;
+        }
+
+        .mobile-panel.open .mobile-panel-card {
+            transform: translateY(0) scale(1);
+            opacity: 1;
+        }
+
+        .mobile-panel-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 14px 16px;
+            border-bottom: 1px solid rgba(11, 34, 48, 0.03);
+            background: linear-gradient(180deg, rgba(255, 255, 255, 0.98), rgba(255, 255, 255, 0.96));
+        }
+
+        .brand-inline {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            text-decoration: none;
+            color: inherit
+        }
+
+        .brand-text-sm {
+            font-weight: 800
+        }
+
+        .mobile-close {
+            appearance: none;
+            background: transparent;
+            border: 0;
+            padding: 8px;
+            border-radius: 8px;
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center
+        }
+
+        .mobile-close svg path {
+            stroke: #0b2330;
+            stroke-width: 2;
+            stroke-linecap: round
+        }
+
+        .mobile-panel-body {
+            padding: 10px
+        }
+
+        .mobile-nav-list {
+            display: flex;
+            flex-direction: column;
+            gap: 8px
+        }
+
+        /* mobile screen icon for jd sales */
+        element.style {
+            transform: none;
+        }
+
+        .to-accent {
+            --tw-gradient-to: hsl(199deg 88.62% 47.84%) var(--tw-gradient-to-position);
+        }
+
+        .from-primary {
+            --tw-gradient-from: hsl(217deg 92.43% 60.46%) var(--tw-gradient-from-position);
+            /* --tw-gradient-to: hsl(217deg 90.97% 59.9% / 0%) var(--tw-gradient-to-position); */
+            --tw-gradient-stops: hsl(217deg 91.65% 60.26%), var(--tw-gradient-to);
+        }
+
+        .bg-gradient-to-br {
+            background-image: linear-gradient(to bottom right, var(--tw-gradient-stops));
+        }
+
+        .rounded-xl {
+            border-radius: .75rem;
+        }
+
+        .justify-center {
+            justify-content: center;
+        }
+
+        .items-center {
+            align-items: center;
+        }
+
+        .w-10 {
+            width: 2.5rem;
+        }
+
+        .h-10 {
+            height: 2.5rem;
+        }
+
+        .flex {
+            display: flex;
+        }
+
+        * {
+            border-color: hsl(214deg 34.36% 91.12%);
+        }
+
+        /* Prevent panel showing on large screens (desktop) */
+        @media (min-width: 992px) {
+            .mobile-panel {
+                display: none !important;
+            }
+        }
+
+        /* small screens */
+        @media (max-width:860px) {
+            .nav .nav-links {
+                display: none;
+            }
+
+            .hamburger {
+                display: inline-flex;
+            }
+
+            .wrap {
+                padding: 0 14px;
+            }
+
+            .hero .section-title {
+                font-size: 28px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation section -->
+    <nav class="fixed top-0 left-0 right-0 z-50 bg-card/95 backdrop-blur-lg border-b border-border/50"
+        style="transform: none;">
+        <div class="container mx-auto px-4 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                <a class="flex items-center gap-3 group" href="/">
+                    <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-primary to-accent flex items-center justify-center"
+                        style="transform: none;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-droplets w-6 h-6 text-primary-foreground">
+                            <path
+                                d="M7 16.3c2.2 0 4-1.83 4-4.05 0-1.16-.57-2.26-1.71-3.19S7.29 6.75 7 5.3c-.29 1.45-1.14 2.84-2.29 3.76S3 11.1 3 12.25c0 2.22 1.8 4.05 4 4.05z">
+                            </path>
+                            <path
+                                d="M12.56 6.6A10.97 10.97 0 0 0 14 3.02c.5 2.5 2 4.9 4 6.5s3 3.5 3 5.5a6.98 6.98 0 0 1-11.91 4.97">
+                            </path>
+                        </svg>
+                    </div><span
+                        class="text-xl font-display font-bold text-foreground group-hover:text-primary transition-colors">JD
+                        SALES</span>
+                </a>
+                <div class="hidden lg:flex items-center gap-8"><a class="nav-link font-medium"
+                        href="index.html">Home</a><a class="nav-link font-medium " href="contact.html">Contact Us</a><a
+                        href="tel:+91-8369888545"
+                        class="flex items-center gap-2 text-foreground/80 hover:text-primary transition-colors font-medium"><svg
+                            xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-phone w-4 h-4">
+                            <path
+                                d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                            </path>
+                        </svg>+91-8369888545</a><a href="tel:+91-8286244157"
+                        class="flex items-center gap-2 text-foreground/80 hover:text-primary transition-colors font-medium"><svg
+                            xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-phone w-4 h-4">
+                            <path
+                                d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                            </path>
+                        </svg>+91-8286244157</a></div>
+                <button id="mobileToggle" class="lg:hidden p-2 rounded-lg hover:bg-secondary transition-colors"
+                    aria-controls="mobilePanel" aria-expanded="false" aria-label="Open menu">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="lucide lucide-menu w-6 h-6">
+                        <line x1="4" x2="20" y1="12" y2="12"></line>
+                        <line x1="4" x2="20" y1="6" y2="6"></line>
+                        <line x1="4" x2="20" y1="18" y2="18"></line>
+                    </svg>
+                </button>
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- MOBILE PANEL (sibling to header) -->
+    <div id="mobilePanel" class="mobile-panel" aria-hidden="true">
+        <div class="mobile-panel-card" role="dialog" aria-modal="true" aria-labelledby="mobilePanelTitle">
+            <div class="mobile-panel-header">
+                <a class="brand-inline" href="/">
+                    <!-- <div class="brand-badge-sm" aria-hidden="true"></div> -->
+
+                    <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-primary to-accent flex items-center justify-center"
+                        style="transform: none;"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-droplets w-6 h-6 text-primary-foreground">
+                            <path
+                                d="M7 16.3c2.2 0 4-1.83 4-4.05 0-1.16-.57-2.26-1.71-3.19S7.29 6.75 7 5.3c-.29 1.45-1.14 2.84-2.29 3.76S3 11.1 3 12.25c0 2.22 1.8 4.05 4 4.05z">
+                            </path>
+                            <path
+                                d="M12.56 6.6A10.97 10.97 0 0 0 14 3.02c.5 2.5 2 4.9 4 6.5s3 3.5 3 5.5a6.98 6.98 0 0 1-11.91 4.97">
+                            </path>
+                        </svg></div>
+                    <div id="mobilePanelTitle" class="brand-text-sm">JD SALES</div>
+                </a>
+                <button id="mobileClose" class="mobile-close" aria-label="Close menu">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                        <path d="M6 6l12 12M18 6L6 18" stroke="#0b2330" stroke-width="2" stroke-linecap="round" />
+                    </svg>
+                </button>
+            </div>
+
+            <div class="mobile-panel-body">
+                <nav class="mobile-nav-list" aria-label="Mobile">
+
+                    <div class="py-4 border-t border-border/50 space-y-4"><a
+                            class="block py-2 font-medium transition-colors text-primary" href="index.html">Home</a><a
+                            class="block py-2 font-medium transition-colors text-foreground/80 hover:text-primary"
+                            href="contact.html">Contact Us</a>
+                        <div class="pt-4 border-t border-border/50 space-y-3"><a href="tel:+91-8369888545"
+                                class="flex items-center gap-2 text-foreground/80 hover:text-primary transition-colors"><svg
+                                    xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-phone w-4 h-4">
+                                    <path
+                                        d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                                    </path>
+                                </svg>+91-8369888545</a><a href="tel:+91-8286244157"
+                                class="flex items-center gap-2 text-foreground/80 hover:text-primary transition-colors"><svg
+                                    xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-phone w-4 h-4">
+                                    <path
+                                        d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                                    </path>
+                                </svg>+91-8286244157</a></div>
+                    </div>
+                </nav>
+
+            </div>
+        </div>
+
+        <!-- distinct backdrop (click to close) -->
+        <div class="mobile-panel-backdrop" data-close="true" tabindex="-1"></div>
+    </div>
+
+    <!-- HERO -->
+    <section class="hero" aria-label="Contact hero">
+        <div class="inner">
+            <h2 class="section-title">Get in <span class="accent">Touch</span></h2>
+            <p class="text-lg text-muted-foreground">Have questions about our products? Need a quote? We're here to
+                help. Reach out to us and we'll respond within 24 hours.</p>
+        </div>
+    </section>
+
+    <!-- CONTENT -->
+    <main class="main">
+        <div class="wrap">
+
+            <!-- LEFT COLUMN -->
+            <div class="contact-col">
+
+                <h3 class="col-title mt-4">Contact Information</h3>
+
+                <!-- PHONE CARD -->
+                <div class="card contact-card">
+                    <div class="icon-round">
+                        <div class="feature-icon flex-shrink-0"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round"
+                                class="lucide lucide-phone w-6 h-6 text-primary-foreground">
+                                <path
+                                    d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                                </path>
+                            </svg></div>
+                    </div>
+                    <div>
+                        <h3>Phone</h3>
+                        <div class="muted">
+                            <a href="tel:+918369888545">+91-8369888545</a><br>
+                            <a href="tel:+918286244157">+91-8286244157</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- EMAIL CARD -->
+                <div class="card contact-card">
+                    <div class="icon-round">
+                        <div class="feature-icon flex-shrink-0"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round"
+                                class="lucide lucide-mail w-6 h-6 text-primary-foreground">
+                                <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+                                <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+                            </svg></div>
+                    </div>
+                    <div>
+                        <h3>Email</h3>
+                        <div class="muted">
+                            <a href="mailto:care.jdsales@gmail.com">jdsales@gmail.com</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- WHATSAPP CARD -->
+                <div class="card contact-card">
+                    <div class="icon-round">
+                        <div class="feature-icon flex-shrink-0"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round"
+                                class="lucide lucide-message-circle w-6 h-6 text-primary-foreground">
+                                <path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"></path>
+                            </svg></div>
+                    </div>
+                    <div>
+                        <h3>WhatsApp</h3>
+                        <div class="muted">
+                            <a href="https://wa.me/918369888545">Chat with us</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- MAP / LOCATION CARD -->
+                <div class="map-promo card">
+                    <div>
+                        <div class="big-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round"
+                                class="lucide lucide-map-pin w-12 h-12 text-primary mx-auto mb-4">
+                                <path
+                                    d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0">
+                                </path>
+                                <circle cx="12" cy="10" r="3"></circle>
+                            </svg>
+                        </div>
+                        <p class="muted">Based in India
+                        <p>Delivering Nationwide</p>
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- RIGHT COLUMN → FORM -->
+            <aside class="card form-card" aria-labelledby="contact-form">
+                <h3 id="contact-form" class="form-title">Send us a Message</h3>
+
+                <form onsubmit="event.preventDefault(); alert('Message Sent!');">
+                    <div class="form-grid">
+
+                        <div style="opacity: 1;transform: none;">
+                            <label for="name" class="form-subject">Your Name</label>
+                            <input id="name" name="name" type="text" class="input-field" placeholder=" John Doe "
+                                required />
+                        </div>
+
+                        <div>
+                            <label for="email" class="form-subject">Email Address</label>
+                            <input id="email" name="email" type="email" class="input-field"
+                                placeholder=" john@example.com " required />
+                        </div>
+
+                        <div>
+                            <label for="phone" class="form-subject">Phone Number</label>
+                            <input id="phone" name="phone" type="tel" class="input-field"
+                                placeholder=" +91-XXXXXXXXXX " />
+                        </div>
+
+                        <div>
+                            <label for="subject" class="form-subject">Subject</label>
+                            <select id="subject" name="subject" class="input-field" required>
+                                <option value="">Select a subject</option>
+                                <option value="quote">Request a Quote</option>
+                                <option value="product">Product Inquiry</option>
+                                <option value="support">Technical Support</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+
+                        <div class="full">
+                            <label for="message" class="form-subject">Message</label>
+                            <textarea id="message" name="message" class="input-field resize none"
+                                placeholder=" Tell us about your requirements... " required></textarea>
+                        </div>
+
+                        <div class="full">
+                            <button type="submit"
+                                class="w-full btn-primary py-4 rounded-xl font-semibold flex items-center justify-center gap-2"
+                                tabindex="0" style="opacity: 1; transform: none;">Send Message<svg
+                                    xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-send w-5 h-5">
+                                    <path
+                                        d="M14.536 21.686a.5.5 0 0 0 .937-.024l6.5-19a.496.496 0 0 0-.635-.635l-19 6.5a.5.5 0 0 0-.024.937l7.93 3.18a2 2 0 0 1 1.112 1.11z">
+                                    </path>
+                                    <path d="m21.854 2.147-10.94 10.939"></path>
+                                </svg></button>
+                        </div>
+
+                    </div>
+                </form>
+            </aside>
+        </div>
+    </main>
+
+
+    <!-- FLOATING ACTIONS -->
+
+    <div class="float-actions" aria-hidden="false">
+        <a class="fab wh" href="https://wa.me/918369888545" target="_blank" title="Chat on WhatsApp">
+            <img src="images/whatsapp-icon.webp" alt="whatsapp-icon" style="width:50px;height:50px;">
+        </a>
+        <a class="fab call" href="tel:+918369888545" target="_blank" title="Call us">
+            <img src="images/phone.webp" alt="phone-icon">
+        </a>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="site-footer-new">
+        <div class="footer-container">
+            <div class="footer-grid">
+                <!-- Brand -->
+                <div class="footer-col footer-brand">
+                    <a class="brand-link" href="/">
+                        <span class="brand-badge" aria-hidden>
+                            <!-- gradient square with droplet icon -->
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="icon-droplets">
+                                <path
+                                    d="M7 16.3c2.2 0 4-1.83 4-4.05 0-1.16-.57-2.26-1.71-3.19S7.29 6.75 7 5.3c-.29 1.45-1.14 2.84-2.29 3.76S3 11.1 3 12.25c0 2.22 1.8 4.05 4 4.05z">
+                                </path>
+                                <path
+                                    d="M12.56 6.6A10.97 10.97 0 0 0 14 3.02c.5 2.5 2 4.9 4 6.5s3 3.5 3 5.5a6.98 6.98 0 0 1-11.91 4.97">
+                                </path>
+                            </svg>
+                        </span>
+                        <span class="brand-text">JD SALES</span>
+                    </a>
+                    <p class="brand-desc">Leading provider of high-quality water treatment chemicals for industrial
+                        applications.
+                    </p>
+                </div>
+
+                <!-- Products -->
+                <div class="footer-col">
+                    <h4 class="foot-title">Products</h4>
+                    <ul class="foot-links">
+                        <li><a href="cooling-water-chemical.html">Cooling Tower Chemicals</a></li>
+                        <li><a href="boiler-treatment.html">Boiler Water Treatment</a></li>
+                        <li><a href="ro-mem.html">RO Membrane Antiscalant</a></li>
+                        <li><a href="solar-panel.html">Solar Panel Cleaning</a></li>
+                        <li><a href="water-treatment.html">Water Treatment</a></li>
+                        <li><a href="descaling.html">Descaling Chemicals</a></li>
+                    </ul>
+                </div>
+
+                <!-- Quick links -->
+                <div class="footer-col">
+                    <h4 class="foot-title">Quick Links</h4>
+                    <ul class="foot-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact -->
+                <div class="footer-col">
+                    <h4 class="foot-title">Contact Us</h4>
+                    <ul class="contact-list">
+                        <li>
+                            <a class="contact-link" href="tel:+918369888545">
+                                <svg class="icon icon-phone" viewBox="0 0 24 24" width="20" height="20" fill="none"
+                                    stroke="currentColor" stroke-width="2">
+                                    <path
+                                        d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.12.66.3 1.3.7 2.81.32 1.14-.03 1.73-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c1.08.36 1.97.56 2.81.7A2 2 0 0 1 22 16.92z">
+                                    </path>
+                                </svg>
+                                +91-8369888545
+                            </a>
+                        </li>
+                        <li>
+                            <a class="contact-link" href="tel:+918286244157">
+                                <svg class="icon icon-phone" viewBox="0 0 24 24" width="20" height="20" fill="none"
+                                    stroke="currentColor" stroke-width="2">
+                                    <path
+                                        d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.12.66.3 1.3.7 2.81.32 1.14-.03 1.73-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c1.08.36 1.97.56 2.81.7A2 2 0 0 1 22 16.92z">
+                                    </path>
+                                </svg>
+                                +91-8286244157
+                            </a>
+                        </li>
+                        <li>
+                            <a class="contact-link" href="mailto:care.jdsales@gmail.com">
+                                <svg class="icon icon-mail" viewBox="0 0 24 24" width="20" height="20" fill="none"
+                                    stroke="currentColor" stroke-width="2">
+                                    <rect x="2" y="4" width="20" height="16" rx="2"></rect>
+                                    <path d="M22 7l-10 6-10-6"></path>
+                                </svg>
+                                jdsales@gmail.com
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- copyright -->
+            <div class="footer-bottom">
+                <p>© 2023 JD Sales. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+            // mobile menu toggle + backdrop + escape key + close on link click
+            (function () {
+                const toggle = document.getElementById('mobileToggle');
+                const panel = document.getElementById('mobilePanel');
+                const closeBtn = document.getElementById('mobileClose');
+                const backdrop = document.getElementById('mobileBackdrop');
+
+                function openPanel() {
+                    panel.classList.add('open');
+                    backdrop.classList.add('open');
+                    toggle.setAttribute('aria-expanded', 'true');
+                    document.body.style.overflow = 'hidden';
+                }
+                function closePanel() {
+                    panel.classList.remove('open');
+                    backdrop.classList.remove('open');
+                    toggle.setAttribute('aria-expanded', 'false');
+                    document.body.style.overflow = '';
+                }
+
+                toggle && toggle.addEventListener('click', function () {
+                    panel.classList.contains('open') ? closePanel() : openPanel();
+                });
+                closeBtn && closeBtn.addEventListener('click', closePanel);
+                backdrop && backdrop.addEventListener('click', closePanel);
+                document.addEventListener('keydown', function (e) {
+                    if (e.key === 'Escape' && panel.classList.contains('open')) closePanel();
+                });
+                // close when tapping a link inside panel
+                panel && panel.addEventListener('click', function (ev) {
+                    const a = ev.target.closest('a');
+                    if (a) closePanel();
+                });
+            })();
+    </script>
+
+</body>
+
+</html>
