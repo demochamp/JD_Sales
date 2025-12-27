@@ -29,6 +29,48 @@ body {
   line-height: 1.45;
 }
 
+/* TOP INFO BAR */
+.top-info-bar {
+  background: #f4f6f8;
+  border-bottom: 1px solid #e5e7eb;
+  font-size: 14px;
+}
+
+.top-info-inner {
+  max-width: 1200px;
+  margin: auto;
+  padding: 6px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top-info-bar a {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: #333;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.top-info-bar svg {
+  width: 16px;
+  height: 16px;
+  stroke: currentColor;
+  fill: none;
+  stroke-width: 2;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .top-info-inner {
+    flex-direction: column;
+    gap: 4px;
+    text-align: center;
+  }
+}
+
 /* Navigation section*/
 element.style {
   transform: none;
@@ -130,7 +172,7 @@ a {
   position: relative;
   padding: 10px 12px;
   border-radius: 10px;
-  transition: 
+  transition:
     background-color 0.25s ease,
     color 0.25s ease,
     transform 0.15s ease;
@@ -138,7 +180,8 @@ a {
 
 /* Desktop hover */
 .mobile-nav-list a:hover {
-  background: rgba(30, 144, 255, 0.08); /* light primary */
+  background: rgba(30, 144, 255, 0.08);
+  /* light primary */
   color: #1e90ff;
 }
 
@@ -172,14 +215,16 @@ a {
 }
 
 .py-4 {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
+
 .border-border\/50 {
-    border-color: hsl(214deg 27.33% 90.03% / 50%);
+  border-color: hsl(214deg 27.33% 90.03% / 50%);
 }
+
 .border-t {
-    border-top-width: 1px;
+  border-top-width: 1px;
 }
 
 /* WRAPPER */
@@ -379,8 +424,8 @@ element.style {
 }
 
 .lg\:mt-20 {
-        margin-top: 7rem;
-    }
+  margin-top: 7rem;
+}
 
 @media (min-width:768px) {
   .hero-main-title {
@@ -465,6 +510,13 @@ element.style {
   flex-wrap: wrap;
   gap: 16px;
 }
+
+@media (max-width: 768px) {
+  .hero {
+    padding-bottom: 60px;
+  }
+}
+
 
 /* scroll indicator */
 .scroll-indicator {
@@ -1067,5 +1119,33 @@ a:focus {
 
   .brand-text {
     font-size: 14px
+  }
+}
+
+/* FIX FOOTER MOBILE ALIGNMENT */
+@media (max-width: 768px) {
+
+  .footer-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    text-align: left;
+  }
+
+  .footer-col {
+    width: 100%;
+  }
+
+  .footer-col h4 {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+
+  .foot-links {
+    padding-left: 0;
+  }
+
+  .foot-links li {
+    margin-bottom: 8px;
   }
 }
